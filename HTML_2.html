@@ -10,7 +10,7 @@
 
 <h1> Example Form </h1>
 
-<form>
+<form name="exampleForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
   First name:<br>
   <input type="text" name="firstname"><br>
   Last name:<br>
@@ -23,6 +23,8 @@
   <br>
   <input type="radio" name="online" value="online" checked> Online<br>
   <input type="radio" name="online" value="physical" > In Person<br>
+  <br>
+  <input type="submit" value="Submit">
 </form>
 
 </body>
